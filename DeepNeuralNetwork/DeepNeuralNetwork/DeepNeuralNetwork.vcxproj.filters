@@ -13,6 +13,53 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\Layer">
+      <UniqueIdentifier>{a858d8ff-f48d-41b3-bbd0-ad3b78318731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Activation">
+      <UniqueIdentifier>{564b0f67-3a8b-40bf-86fe-d553aa8379d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Output">
+      <UniqueIdentifier>{841df77c-4412-44e4-8651-42a65af9fd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utils">
+      <UniqueIdentifier>{349bb126-57d3-4b76-8823-436a1aa61102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Optimizer">
+      <UniqueIdentifier>{77eff64b-7086-4a47-b1ed-56e0ab5d23e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DNN.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FullyConnected.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolutional.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Pooling.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
