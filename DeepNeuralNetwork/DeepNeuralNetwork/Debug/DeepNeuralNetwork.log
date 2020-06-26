@@ -1,4 +1,4 @@
-﻿빌드 시작: 2020-06-25 오후 5:15:20
+﻿빌드 시작: 2020-06-26 오후 5:28:37
      1>2 노드의 "C:\visual studio\DeepNeuralNetwork\DeepNeuralNetwork\DeepNeuralNetwork\DeepNeuralNetwork.vcxproj" 프로젝트(Build 대상)입니다.
      1>Link:
          DeepNeuralNetwork.vcxproj -> C:\visual studio\DeepNeuralNetwork\DeepNeuralNetwork\Debug\DeepNeuralNetwork.exe
@@ -6,4 +6,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:00.37
+경과 시간: 00:00:00.06

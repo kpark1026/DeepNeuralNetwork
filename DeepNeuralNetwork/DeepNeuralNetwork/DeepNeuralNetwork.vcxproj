@@ -73,10 +73,12 @@
     <ClInclude Include="DNN.h" />
     <ClInclude Include="FullyConnected.h" />
     <ClInclude Include="Layer.h" />
+    <ClInclude Include="MaxAverage.h" />
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
     <ClInclude Include="Output.h" />
     <ClInclude Include="Pooling.h" />
+    <ClInclude Include="Random.h" />
     <ClInclude Include="RNG.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
