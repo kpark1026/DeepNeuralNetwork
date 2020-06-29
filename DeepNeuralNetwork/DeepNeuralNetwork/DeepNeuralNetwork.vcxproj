@@ -68,18 +68,37 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Activation\Identity.h" />
+    <ClInclude Include="Activation\ReLU.h" />
+    <ClInclude Include="Activation\Sigmoid.h" />
+    <ClInclude Include="Activation\Softmax.h" />
+    <ClInclude Include="Activation\Tanh.h" />
     <ClInclude Include="Config.h" />
-    <ClInclude Include="Convolutional.h" />
     <ClInclude Include="DNN.h" />
-    <ClInclude Include="FullyConnected.h" />
     <ClInclude Include="Layer.h" />
-    <ClInclude Include="MaxAverage.h" />
+    <ClInclude Include="Layer\Convolutional.h" />
+    <ClInclude Include="Layer\FullyConnected.h" />
+    <ClInclude Include="Layer\Pooling.h" />
     <ClInclude Include="NeuralNet.h" />
     <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="Optimizer\AdaDelta.h" />
+    <ClInclude Include="Optimizer\AdaGrad.h" />
+    <ClInclude Include="Optimizer\Adam.h" />
+    <ClInclude Include="Optimizer\AdaMAX.h" />
+    <ClInclude Include="Optimizer\AMSGrad.h" />
+    <ClInclude Include="Optimizer\Momentum.h" />
+    <ClInclude Include="Optimizer\Nadam.h" />
+    <ClInclude Include="Optimizer\NAG.h" />
+    <ClInclude Include="Optimizer\RMSProp.h" />
+    <ClInclude Include="Optimizer\SGD.h" />
     <ClInclude Include="Output.h" />
-    <ClInclude Include="Pooling.h" />
-    <ClInclude Include="Random.h" />
+    <ClInclude Include="Output\CrossEntropy.h" />
+    <ClInclude Include="Output\MSE.h" />
     <ClInclude Include="RNG.h" />
+    <ClInclude Include="Utils\Convolution.h" />
+    <ClInclude Include="Utils\MaxAverage.h" />
+    <ClInclude Include="Utils\Random.h" />
+    <ClInclude Include="Utils\sparsepp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

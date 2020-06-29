@@ -51,20 +51,77 @@
     <ClInclude Include="RNG.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="FullyConnected.h">
-      <Filter>헤더 파일\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="Convolutional.h">
-      <Filter>헤더 파일\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="Pooling.h">
-      <Filter>헤더 파일\Layer</Filter>
-    </ClInclude>
-    <ClInclude Include="Random.h">
+    <ClInclude Include="Utils\Convolution.h">
       <Filter>헤더 파일\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="MaxAverage.h">
+    <ClInclude Include="Utils\MaxAverage.h">
       <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Random.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Convolutional.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\FullyConnected.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Pooling.h">
+      <Filter>헤더 파일\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Identity.h">
+      <Filter>헤더 파일\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\ReLU.h">
+      <Filter>헤더 파일\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Sigmoid.h">
+      <Filter>헤더 파일\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Tanh.h">
+      <Filter>헤더 파일\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Activation\Softmax.h">
+      <Filter>헤더 파일\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Output\MSE.h">
+      <Filter>헤더 파일\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Output\CrossEntropy.h">
+      <Filter>헤더 파일\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\SGD.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Momentum.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\sparsepp.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\NAG.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaGrad.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaDelta.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Adam.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Nadam.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaMAX.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\RMSProp.h">
+      <Filter>헤더 파일\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AMSGrad.h">
+      <Filter>헤더 파일\Optimizer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
